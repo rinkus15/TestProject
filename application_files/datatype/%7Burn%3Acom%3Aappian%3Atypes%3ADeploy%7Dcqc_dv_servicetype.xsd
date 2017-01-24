@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="urn:com:appian:types:Deploy"
+  xmlns:tns="urn:com:appian:types:Deploy" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:complexType name="cqc_dv_servicetype">
+    <xsd:annotation>
+      <xsd:appinfo source="appian.jpa">
+                @Table(name="cqc_dv_servicetype1")
+            </xsd:appinfo>
+      <xsd:documentation><![CDATA[Holds value for Sync Error Message.]]></xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="Id" nillable="true" type="xsd:int">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Id @Column(name="Id") @GeneratedValue</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="Type" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="Type")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="IsActive" nillable="true" type="xsd:boolean">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="IsActive")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>
