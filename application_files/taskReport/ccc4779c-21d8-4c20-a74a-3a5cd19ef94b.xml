@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskReportHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <taskReport name="TestReport" a:uuid="ccc4779c-21d8-4c20-a74a-3a5cd19ef94b">
+        <a:description>report for test</a:description>
+        <a:uiExpr>=#&quot;_a-0000de2e-ccd6-8000-9ccd-01ef9001ef90_60933&quot;()</a:uiExpr>
+        <a:urlStub>-zIXsw</a:urlStub>
+    </taskReport>
+    <roleMap/>
+</taskReportHaul>
