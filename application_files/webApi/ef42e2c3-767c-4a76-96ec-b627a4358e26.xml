@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<webApiHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <webApi name="test2" a:uuid="ef42e2c3-767c-4a76-96ec-b627a4358e26">
+        <a:description>tset2 web api</a:description>
+        <a:expression>#&quot;SYSTEM_SYSRULES_httpResponse&quot;(
+  /*
+  * The 'statusCode' parameter is a number that represents the HTTP status code
+  * of the response. If no status code is specified, a default of '200' is used,
+  * meaning that the request was successful.
+  */
+  statusCode: 200,
+
+  /*
+  * The 'headers' parameter is a list of HTTP headers to include on the response.
+  * HTTP headers should be built with 'a!httpHeader()'.
+  */
+  headers: {},
+
+  /*
+  * The 'body' parameter is the text that will be included in the HTTP response's
+  * body.
+  */
+  body: &quot;Hello World&quot;
+)</a:expression>
+        <a:urlAlias>1Oeqiw</a:urlAlias>
+        <a:httpMethod>GET</a:httpMethod>
+        <a:system>false</a:system>
+    </webApi>
+    <roleMap/>
+    <typedValue>
+        <type>
+            <name>WebApiRequest?list</name>
+            <namespace>http://www.appian.com/ae/types/2009</namespace>
+        </type>
+        <value>
+            <el>
+                <a:path/>
+                <a:body/>
+            </el>
+        </value>
+    </typedValue>
+</webApiHaul>
