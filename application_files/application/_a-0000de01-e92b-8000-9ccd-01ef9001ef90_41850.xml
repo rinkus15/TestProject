@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
+<?xml version="1.0" encoding="UTF-8"?><applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
     <application>
         <name>Test1</name>
         <uuid>_a-0000de01-e92b-8000-9ccd-01ef9001ef90_41850</uuid>
@@ -92,9 +91,7 @@
                 </item>
                 <item>
                     <type>taskReport</type>
-                    <uuids>
-                        <uuid>ccc4779c-21d8-4c20-a74a-3a5cd19ef94b</uuid>
-                    </uuids>
+                    <uuids/>
                 </item>
                 <item>
                     <type>webApi</type>
@@ -239,4 +236,4 @@
             </role>
         </contentRoleMap>
     </roleMap>
-</applicationHaul>
+</applicationHaul><!--updated on 2017-03-16T13:59:11.954-->
