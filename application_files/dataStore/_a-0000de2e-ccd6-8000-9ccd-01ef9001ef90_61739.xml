@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataStoreHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <dataStore>
+        <uuid>_a-0000de2e-ccd6-8000-9ccd-01ef9001ef90_61739</uuid>
+        <name>deployTest</name>
+        <description>for test the deploy</description>
+        <dataSourceKey>jdbc/SqlServerDS</dataSourceKey>
+        <adaptingExplicitSqlNames>false</adaptingExplicitSqlNames>
+        <autoUpdateSchema>false</autoUpdateSchema>
+        <entities>
+            <entity>
+                <uuid>f778613e-d806-4c98-aa9f-2f92d377d9aa</uuid>
+                <name>cqc_dv_servicetype</name>
+                <type>{urn:com:appian:types:Deploy}cqc_dv_servicetype</type>
+            </entity>
+            <entity>
+                <uuid>2ce69b9c-1583-458e-9e2f-8f9e995fa67b</uuid>
+                <name>CQC_dv_Region</name>
+                <type>{urn:com:appian:types:Deploy}CQC_dv_Region1</type>
+            </entity>
+        </entities>
+    </dataStore>
+    <isPublished>true</isPublished>
+    <roleMap>
+        <role allowForAll="false" inherit="false" name="administrators">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="false" name="authors">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="false" name="denyAdministrators">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="false" name="denyAuthors">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="false" name="denyReaders">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="false" name="readers">
+            <users/>
+            <groups/>
+        </role>
+    </roleMap>
+</dataStoreHaul>
