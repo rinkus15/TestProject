@@ -4,7 +4,7 @@
         <uuid>_a-0000de2e-ccd6-8000-9ccd-01ef9001ef90_61739</uuid>
         <name>deployTest</name>
         <description>for test the deploy</description>
-        <dataSourceKey>jdbc/AppianSecondaryDS</dataSourceKey>
+        <dataSourceKey>jdbc/SqlServerDS</dataSourceKey>
         <adaptingExplicitSqlNames>false</adaptingExplicitSqlNames>
         <autoUpdateSchema>false</autoUpdateSchema>
         <entities>
@@ -22,11 +22,6 @@
                 <uuid>368b2a51-7bed-40c4-9ee4-2a42b72faa38</uuid>
                 <name>CQC_dv_Status1</name>
                 <type>{urn:com:appian:types:Deploy}CQC_dv_Status1</type>
-            </entity>
-            <entity>
-                <uuid>0d8a78fd-8894-480a-837e-509656ff7499</uuid>
-                <name>CQC_dv_check</name>
-                <type>{urn:com:appian:types:Deploy}CQC_dv_check</type>
             </entity>
         </entities>
     </dataStore>

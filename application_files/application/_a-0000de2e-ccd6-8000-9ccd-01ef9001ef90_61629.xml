@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
+<?xml version="1.0" encoding="UTF-8"?><applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
     <application>
         <name>FinalAutomationDeploy</name>
         <uuid>_a-0000de2e-ccd6-8000-9ccd-01ef9001ef90_61629</uuid>
@@ -25,7 +24,6 @@
                         <uuid>{urn:com:appian:types:Deploy}cqc_dv_servicetype</uuid>
                         <uuid>{urn:com:appian:types:Deploy}CQC_dv_Region1</uuid>
                         <uuid>{urn:com:appian:types:Deploy}CQC_dv_Status1</uuid>
-                        <uuid>{urn:com:appian:types:Deploy}CQC_dv_check</uuid>
                     </uuids>
                 </item>
                 <item>
@@ -241,4 +239,4 @@
             </role>
         </contentRoleMap>
     </roleMap>
-</applicationHaul>
+</applicationHaul><!--updated on 2017-03-17T03:19:55.112-->

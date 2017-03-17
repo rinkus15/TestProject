@@ -56,13 +56,6 @@
                 <namespace>http://www.w3.org/2001/XMLSchema</namespace>
             </type>
         </namedTypedValue>
-        <namedTypedValue>
-            <name>value</name>
-            <type>
-                <name>CQC_dv_check</name>
-                <namespace>urn:com:appian:types:Deploy</namespace>
-            </type>
-        </namedTypedValue>
         <preferredEditor>interface</preferredEditor>
         <offlineEnabled>false</offlineEnabled>
     </rule>
